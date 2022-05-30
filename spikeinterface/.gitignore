@@ -1,0 +1,233 @@
+spikeinterface/core/tests/*.raw
+spikeinterface/core/tests/*.json
+spikeinterface/core/tests/*.pkl
+spikeinterface/core/tests/*.npz
+
+spikeinterface/core/tests/*/*.json
+spikeinterface/core/tests/*/*.raw
+spikeinterface/core/tests/*/*.npy
+
+spikeinterface/core/tests/*/*/*.json
+spikeinterface/core/tests/*/*/*.raw
+spikeinterface/core/tests/*/*/*.npy
+
+
+spikeinterface/extractors/tests/*/*/*.json
+spikeinterface/extractors/tests/*/*/*.raw
+spikeinterface/extractors/tests/*.npz
+spikeinterface/extractors/tests/*.npy
+spikeinterface/extractors/tests/extractor_testing_files/*
+
+spikeinterface/toolkit/*/tests/*/*.json
+spikeinterface/toolkit/*/tests/*/*.raw
+spikeinterface/toolkit/*/tests/*/*.npy
+spikeinterface/toolkit/*/tests/*/*.npz
+spikeinterface/toolkit/*/tests/*/*/*.json
+spikeinterface/toolkit/*/tests/*/*/*.raw
+spikeinterface/toolkit/*/tests/*/*/*.npy
+spikeinterface/toolkit/*/tests/*/*/*.npz
+
+spikeinterface/toolkit/*/tests/*_output/*
+
+spikeinterface/exporters/tests/*/*
+
+spikeinterface/sorters/tests/*/*
+
+
+spikeinterface/widgets/tests/mearec_test/*
+
+examples/getting_started/*_output/*
+examples/getting_started/waveforms/*
+examples/*/*/*/*.raw
+examples/*/*/*/*/*.npy
+examples/*/*/sorter_outputs
+examples/*/*/*_to_phy
+
+.vscode/*
+
+# MauroToro: My absolute mess of envs
+bin/
+DATA/
+etc/
+include/
+share/
+dist_metrics.pxd
+pyvenv.cfg
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pycharm
+.idea
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# PyCharm configuration
+.idea
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+doc/_build/*
+doc/getting_started/*
+doc/modules/*
+doc/sources/*
+
+examples/getting_started/tmp_*
+examples/getting_started/phy
+examples/modules/widgets/tmp_*
+examples/modules/sorters/tmp_*
+examples/modules/sorters/my_sorter_output/*
+examples/modules/extractors/sample_mountainsort_dataset/*
+examples/modules/extractors/firings_true.mda
+examples/modules/extractors/circular_layout.csv
+examples/modules/comparison/tmp_*
+examples/modules/comparison/a_study_folder/*
+examples/modules/toolkit/phy/*
+examples/modules/toolkit/tmp_*
+
+# Files and folders generated during tests
+all_pc1.npy
+all_pc2.npy
+binary01.raw
+binary02.raw
+herdingspikes_output/
+local_cache/
+mdatest/
+mearec_GT_report/
+mearec_test/
+mearec_waveforms/
+phy_output/
+phy_output_radius/
+phy_output_rm/
+phy_output_thr/
+rec/
+saved_multisorting_comparison/
+sort/
+sorting_tdc_local/
+spykingcircus_output/
+test_BaseSorting.npz
+test_BinaryRecordingExtractor_0.raw
+test_BinaryRecordingExtractor_1.raw
+test_BinaryRecordingExtractor_copied_0.raw
+test_BinaryRecordingExtractor_copied_1.raw
+test_NpzSortingExtractor.npz
+test_NpzSortingExtractor_copy.npz
+test_extract_waveforms_returnscaled/
+test_extract_waveforms_sparsity/
+test_groundtruthstudy/
+test_run_sorter_by_property/
+test_run_sorters_dict/
+test_run_sorters_list/
+test_studytools/
+toy_rec/
+toy_rec_1seg/
+toy_rec_2seg/
+toy_sort/
+toy_sorting/
+toy_sorting_1seg/
+toy_sorting_2seg/
+toy_waveforms/
+toy_waveforms_1seg/
+toy_waveforms_2seg/
+tridesclous_output/
+waveforms/
+waveforms_mearec/
+waveforms_rm/

@@ -1,0 +1,5 @@
+numpy
+neo>=0.10.2
+joblib
+tqdm
+probeinterface>=0.2.9

@@ -1,0 +1,34 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip<21
+  - git-annex
+  - datalad
+  - pyqt=5
+  - numpy=1.20
+  - pip:
+    - joblib
+    - tqdm
+    - pillow
+    - matplotlib
+    - h5py
+    - pandas
+    - scikit-learn
+    - networkx
+    - pybind11
+    - loky
+    - neo>=0.10.0
+    - probeinterface
+    - MEArec>=1.7.1
+    - isosplit5
+    - mountainsort4>=1.0.0    
+    - tridesclous>=1.6.4
+    - herdingspikes<=0.3.99
+    - sphinx-gallery
+    - numpydoc
+    - numpy<1.22
+    - hdbscan
+    - numba==0.54.1
+    - git+https://github.com/SpikeInterface/spikeinterface.git
