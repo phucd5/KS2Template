@@ -13,7 +13,7 @@ cd ks2template
 pip install -e ./spikeinterface
 ```
 
-__Note__: If there are errors make sure the following dependencies are installed_:
+__Note__: If there are errors make sure the following dependencies are installed:
 
 - numpy
 - neo>=0.9.0
@@ -60,7 +60,7 @@ Enter the file name for the template: rez2.mat
 Enter the directory path to the folder of the template: /gpfs/ysm/project/seo/phd24/KS2Template             
 ```
 
-__Note__: If you enter "No" for the initialization of templates, then Kilosort will run normally
+__Note__: If you enter "No" for the initialization of templates, then Kilosort will run normally. The 'rez2.mat' folder is a sample template. 
 
 # Running Kilosort
 
