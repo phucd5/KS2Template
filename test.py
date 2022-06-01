@@ -65,7 +65,7 @@ def init_test_data():
 
 #Do we want to run with initalized templates?
 def use_temp():
-    run_temp = input("Do you want to initalize KS2 with prviously found templates? (Yes/No): ")
+    run_temp = input("Do you want to initalize KS2 with previously found templates? (Yes/No): ")
     run_temp = run_temp.lower()
 
     if run_temp == 'yes':
@@ -103,7 +103,7 @@ def spike_matching_run(study):
 
 
 
-spike_path = input("Enter directory path to spikeinterface folder ")
+spike_path = input("Enter directory path to spikeinterface folder: ")
 spike_path += '/spikeinterface/sorters/kilosort2/kilosort2_config.m'
 use_temp()
 choose_data()
