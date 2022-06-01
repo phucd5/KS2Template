@@ -13,6 +13,10 @@ cd ks2template
 pip install -e ./spikeinterface
 ```
 
+Installing Kilosort:
+
+You must run and complete successfully ```mexGPUall.m``` in the CUDA folder.
+
 __Note__: If there are errors make sure the following dependencies are installed:
 
 - numpy
